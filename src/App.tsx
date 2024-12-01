@@ -50,25 +50,25 @@ function App() {
     }
   };
 
-  const handleButtonTest = () => {
-    setStarted(true);
-    setParticipantName("John Doe");
-    setBirthDate("2000-01-01");
-    setAnswers(questions.map((q) => ({ questionId: q.id, score: 2 })));
-    const now = new Date();
-    const options: Intl.DateTimeFormatOptions = {
-      weekday: "long",
-      year: "numeric",
-      month: "long",
-      day: "numeric",
-      hour: "2-digit",
-      minute: "2-digit",
-      second: "2-digit",
-      hour12: false,
-    };
-    setTestDateTime(now.toLocaleString("id-ID", options));
-    setShowResults(true);
-  };
+  // const handleButtonTest = () => {
+  //   setStarted(true);
+  //   setParticipantName("John Doe");
+  //   setBirthDate("2000-01-01");
+  //   setAnswers(questions.map((q) => ({ questionId: q.id, score: 2 })));
+  //   const now = new Date();
+  //   const options: Intl.DateTimeFormatOptions = {
+  //     weekday: "long",
+  //     year: "numeric",
+  //     month: "long",
+  //     day: "numeric",
+  //     hour: "2-digit",
+  //     minute: "2-digit",
+  //     second: "2-digit",
+  //     hour12: false,
+  //   };
+  //   setTestDateTime(now.toLocaleString("id-ID", options));
+  //   setShowResults(true);
+  // };
 
   return (
     <div className="min-h-screen bg-gray-100 py-8">
