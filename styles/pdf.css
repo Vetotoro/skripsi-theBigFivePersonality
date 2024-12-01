@@ -1,0 +1,12 @@
+.pdf-header {
+  margin-top: 2rem;
+  padding-bottom: 3rem;
+  position: relative;
+  z-index: 2;
+}
+
+.progress-container {
+  margin-top: 1rem;
+  position: relative;
+  z-index: 1;
+}
