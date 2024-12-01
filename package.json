@@ -8,7 +8,7 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview" ,
-    "postbuild": "git add . && git commit -m 'deploy' || echo '' && git push origin master || echo '' && git push -f https://github.com/Vetotoro/skripsi-theBigFivePersonality.git master:gh-pages"
+    "postbuild": "git add . && git commit -m 'deploy' && git push origin master && git push -f https://github.com/Vetotoro/skripsi-theBigFivePersonality.git master:gh-pages"
   },
   "dependencies": {
     "html2canvas": "^1.4.1",
